@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <GetCommerce_Productalert>
+            <version>0.0.1</version>
+        </GetCommerce_Productalert>
+    </modules>
+<global>
+    <models>
+        <GetCommerce_Productalert>
+            <class>GetCommerce_Productalert_Model</class>
+        </GetCommerce_Productalert>
+        <adminhtml>
+            <rewrite> 
+                <system_config_backend_product_alert_cron>GetCommerce_Productalert_Model_System_Config_Backend_Product_Alert_Cron</system_config_backend_product_alert_cron>
+                <system_config_source_cron_frequency>GetCommerce_Productalert_Model_System_Config_Source_Cron_Frequency</system_config_source_cron_frequency>
+            </rewrite>
+        </adminhtml>
+    </models>
+</global>
+</config>

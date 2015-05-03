@@ -1,0 +1,2 @@
+app/code/community/GetCommerce/Productalert    app/code/community/GetCommerce/AdminPayments
+app/etc/modules/GetCommerce_Productalert.xml    app/etc/modules/GetCommerce_AdminPayments.xml

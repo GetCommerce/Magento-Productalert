@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <GetCommerce_Productalert>
+            <active>true</active>
+            <codePool>community</codePool>
+        </GetCommerce_Productalert>
+    </modules>
+</config>
